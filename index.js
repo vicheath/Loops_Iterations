@@ -52,7 +52,74 @@
 // 	console.log(str[i]);
 // }
 
-for(num = 10; num <= 10 && num > 0;num--){
-    if(num % 2 == 0)
-    console.log(num + " even")
+// for(num = 10; num <= 10 && num > 0;num--){
+//     if(num % 2 == 0)
+//     console.log(num + " even")
+// }
+
+// const str = "Hello World";
+
+// for (const c of str) {
+// 	console.log(c);
+// }
+
+// for (let i = 0; i < str.length; i++) {
+// 	if (str[i] == "l") {
+// 		continue;
+// 	}
+
+// 	console.log(str[i]);
+// }
+
+// let x = 30;
+
+// while (x > 0) {
+// 	x /= 2;
+// 	x--;
+
+// 	if (x % 1 != 0) {
+// 		break;
+// 	}
+	
+// 	console.log(x);
+// }
+
+// let x = 10
+
+// while(x >= 0){
+//     console.log(x)
+//     x--
+// }
+
+// let i = 3
+
+// while(i < 35){
+//     if(i % 3 === 0){
+//         console.log(i)
+//     }
+//     i++
+// }
+
+// Print integers in multiples of 5 as long as they are less than 100.
+
+let i = 5
+
+while (i < 100){
+    if(i % 5 === 0){
+         console.log(i)
+    }
+    i++
+}
+
+// Print integers between 0 and 20 with the following conditions
+// All numbers divisible by 2 should be multiplied by 3 before they are output.
+// All other integers should not be output.
+
+let a = 2
+
+while (20 <= a >= 0){
+    if(a % 2 === 0){
+        console.log(a * 3)
+    }
+    a++
 }
